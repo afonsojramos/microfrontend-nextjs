@@ -5,7 +5,8 @@
     "build": "concurrently \"cd app1; yarn build \" \"cd app2; yarn build\" \"cd base; yarn build \"",
     "start": "concurrently \"cd app1; yarn start \" \"cd app2; yarn start\" \"cd base; yarn start \"",
     "postinstall": "concurrently \"cd app1; yarn\" \"cd app2; yarn\" \"cd base; yarn\"",
-    "lint": "concurrently \"cd app1; yarn lint\" \"cd app2; yarn lint\" \"cd base; yarn lint\""
+    "lint": "concurrently \"cd app1; yarn lint\" \"cd app2; yarn lint\" \"cd base; yarn lint\"",
+    "lint-fix": "concurrently \"cd app1; yarn lint --fix\" \"cd app2; yarn lint --fix\" \"cd base; yarn lint --fix\""
   },
   "dependencies": {
     "concurrently": "^6.3.0"
