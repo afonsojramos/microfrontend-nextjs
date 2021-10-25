@@ -7,12 +7,12 @@ const Thanatos = () => {
       <Image
         src='https://static.wikia.nocookie.net/hades_gamepedia_en/images/9/9b/Thanatos.png'
         alt='Thanatos'
-        width={240}
-        height={413}
+        width={433}
+        height={450}
       />
-      <h1 className={styles.title}>No use in idle chat, I`&apos;`m Thanatos, a microfrontend.</h1>
+      <h1 className={styles.title}>No use in idle chat, I&apos;m Thanatos, a microfrontend.</h1>
       <span>
-        I`&apos;`m hosted at{' '}
+        I&apos;m hosted at{' '}
         <a target='_blank' href='https://microfrontend-nextjs-poc-app1.vercel.app' rel='noreferrer'>
           https://microfrontend-nextjs-poc-app1.vercel.app
         </a>
