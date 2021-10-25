@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3001",
     "build": "next build",
+    "dev": "next dev -p 3001",
+    "lint": "next lint",
     "start": "next start -p 3001"
   },
   "resolutions": {
@@ -17,5 +18,9 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "webpack": "5.59.1"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
   }
 }
