@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import styles from '../styles/home.module.css';
 
 export default function Home() {
@@ -10,7 +11,18 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className={styles.main}>Hello! This content is hosted locally.</main>
+      <main className={styles.main}>
+        <Image
+          src='https://static.wikia.nocookie.net/hades_gamepedia_en/images/6/64/Hades.png'
+          alt='Zagreus'
+          width={370}
+          height={450}
+        />
+        <h1 className={styles.title}>
+          Mark you my words. <i>I</i> am locally hosted!
+        </h1>
+        <span>I&apos;m hosted at right here...</span>
+      </main>
     </div>
   );
 }
