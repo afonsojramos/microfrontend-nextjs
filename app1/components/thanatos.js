@@ -10,11 +10,11 @@ const Thanatos = () => {
         width={240}
         height={413}
       />
-      <h1 className={styles.title}>No use in idle chat, I'm Thanatos, a microfrontend.</h1>
+      <h1 className={styles.title}>No use in idle chat, I`&apos;`m Thanatos, a microfrontend.</h1>
       <span>
-        I'm hosted at{' '}
-        <a target='_blank' href='https://test.vercel.app'>
-          https://test.vercel.app
+        I`&apos;`m hosted at{' '}
+        <a target='_blank' href='https://microfrontend-nextjs-poc-app1.vercel.app' rel='noreferrer'>
+          https://microfrontend-nextjs-poc-app1.vercel.app
         </a>
       </span>
     </main>

@@ -10,11 +10,11 @@ const Zagreus = () => {
         width={240}
         height={413}
       />
-      <h1 className={styles.title}>Hey, name's Zag! I'm a microfrontend.</h1>
+      <h1 className={styles.title}>Hey, name`&apos;`s Zag! I`&apos;`m a microfrontend.</h1>
       <span>
-        I'm hosted at{' '}
-        <a target='_blank' href='https://test.vercel.app'>
-          https://test.vercel.app
+        I`&apos;`m hosted at{' '}
+        <a target='_blank' href='https://microfrontend-nextjs-poc-app2.vercel.app' rel='noreferrer'>
+          https://microfrontend-nextjs-poc-app2.vercel.app
         </a>
       </span>
     </main>
