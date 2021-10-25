@@ -22,7 +22,7 @@ module.exports = {
     config.cache = false;
     withModuleFederation(config, options, mfConf);
     if (!isServer) {
-      config.output.publicPath = 'https://test.vercel.app/_next/';
+      config.output.publicPath = 'https://microfrontend-nextjs-poc-app1.vercel.app/_next/';
     }
 
     return config;
