@@ -8,8 +8,8 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <script src='https://microfrontend-nextjs-poc-app1.vercel.app/_next/static/runtime/app1RemoteEntry.js' />
-        <script src='https://microfrontend-nextjs-poc-app2.vercel.app/_next/static/runtime/app2RemoteEntry.js' />
+        <script src="https://microfrontend-nextjs-poc-app1.vercel.app/_next/static/runtime/app1RemoteEntry.js" />
+        <script src="https://microfrontend-nextjs-poc-app2.vercel.app/_next/static/runtime/app2RemoteEntry.js" />
         <Head />
         <body>
           <Main />

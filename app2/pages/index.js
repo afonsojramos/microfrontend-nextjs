@@ -7,8 +7,8 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Microfrontend Demo App 2</title>
-        <meta name='description' content='This is an app' />
-        <link rel='icon' href='/favicon.ico' />
+        <meta name="description" content="This is an app" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Zagreus />

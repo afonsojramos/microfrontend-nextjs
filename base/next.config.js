@@ -5,8 +5,13 @@ const path = require('path');
 // in production use the chunks
 const ssrRemoteEntry = (app) =>
   process.env.NODE_ENV === 'production'
-    ? path.join(`<remotes-path>/${app}/.next/server/chunks/static/runtime/remoteEntry.js`)
-    : path.resolve(__dirname, `../${app}/.next/server/static/runtime/remoteEntry.js`);
+    ? path.join(
+        `<remotes-path>/${app}/.next/server/chunks/static/runtime/remoteEntry.js`
+      )
+    : path.resolve(
+        __dirname,
+        `../${app}/.next/server/static/runtime/remoteEntry.js`
+      );
 
 module.exports = {
   webpack5: true,

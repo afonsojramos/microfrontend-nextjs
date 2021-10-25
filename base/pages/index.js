@@ -7,14 +7,17 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Microfrontends Demo</title>
-        <meta name='description' content='Demo for Microfrontends using Module Federation' />
-        <link rel='icon' href='/favicon.ico' />
+        <meta
+          name="description"
+          content="Demo for Microfrontends using Module Federation"
+        />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <Image
-          src='https://static.wikia.nocookie.net/hades_gamepedia_en/images/6/64/Hades.png'
-          alt='Zagreus'
+          src="https://static.wikia.nocookie.net/hades_gamepedia_en/images/6/64/Hades.png"
+          alt="Zagreus"
           width={370}
           height={450}
         />
