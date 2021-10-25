@@ -1,7 +1,3 @@
 {
-    "eslint.workingDirectories": [
-        "./app1",
-        "./app2",
-        "./base",
-    ]
-  }
+  "eslint.workingDirectories": ["./app1", "./app2", "./base"]
+}
