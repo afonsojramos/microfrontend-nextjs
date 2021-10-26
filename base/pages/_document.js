@@ -10,7 +10,13 @@ class MyDocument extends Document {
       <Html>
         <script src="https://microfrontend-nextjs-poc-app1.vercel.app/_next/static/runtime/app1RemoteEntry.js" />
         <script src="https://microfrontend-nextjs-poc-app2.vercel.app/_next/static/runtime/app2RemoteEntry.js" />
-        <Head />
+        <Head>
+          <link rel="icon" href="/favicon.ico" />
+          <meta
+            name="description"
+            content="Demo for Microfrontends using Module Federation"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />

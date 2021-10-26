@@ -16,7 +16,7 @@ module.exports = {
       filename: 'static/runtime/app1RemoteEntry.js',
       remotes: {},
       exposes: {
-        './thanatos': './pages/index',
+        './thanatos': './components/thanatos',
       },
     };
     config.cache = false;
